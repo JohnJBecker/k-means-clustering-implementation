@@ -10,7 +10,6 @@ import java.lang.Math;
 
 public class KMeans {
 	public KMeansResult cluster(double[][] centroids, double[][] instances, double threshold) {
-		/* ... YOUR CODE GOES HERE ... */
 		KMeansResult results = new KMeansResult();
 		int[] clusterAssignments = new int[instances.length];
 		ArrayList<Double> distortionIterations = new ArrayList<Double>();
