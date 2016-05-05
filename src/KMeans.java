@@ -14,8 +14,8 @@ public class KMeans {
 		int[] clusterAssignments = new int[instances.length];
 		ArrayList<Double> distortionIterations = new ArrayList<Double>();
 		double[] currDistance = new double[centroids.length]; // Used to hold the distance 
-															  // to all centroids for a certian
-															  // instance.
+								      // to all centroids for a certian
+							              // instance.
 		
 		double[][] tmpCentroids = centroids; // Hold the changed centroid values
 		
